@@ -1,0 +1,240 @@
+
+User@rakib MINGW32 ~
+$ echo "# wprevtheme" >> README.md
+
+User@rakib MINGW32 ~
+$ git init
+Initialized empty Git repository in C:/Users/User/.git/
+
+User@rakib MINGW32 ~ (master)
+$ git commit -m "first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@rakib.(none)')
+
+User@rakib MINGW32 ~ (master)
+$ git remote add origin https://github.com/RyhanRakib/wprevtheme.git
+
+User@rakib MINGW32 ~ (master)
+$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/RyhanRakib/wprevtheme.git'
+
+User@rakib MINGW32 ~ (master)
+$ help
+GNU bash, version 4.3.46(2)-release (i686-pc-msys)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                            history [-c] [-d offset] [n] or hist>
+ (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
+ . filename [arguments]                  jobs [-lnprs] [jobspec ...] or jobs >
+ :                                       kill [-s sigspec | -n signum | -sigs>
+ [ arg... ]                              let arg [arg ...]
+ [[ expression ]]                        local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]          logout [n]
+ bg [job_spec ...]                       mapfile [-n count] [-O origin] [-s c>
+ bind [-lpsvPSVX] [-m keymap] [-f file>  popd [-n] [+N | -N]
+ break [n]                               printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]       pushd [-n] [+N | -N | dir]
+ caller [expr]                           pwd [-LPW]
+ case WORD in [PATTERN [| PATTERN]...)>  read [-ers] [-a array] [-d delim] [->
+ cd [-L|[-P [-e]] [-@]] [dir]            readarray [-n count] [-O origin] [-s>
+ command [-pVv] command [arg ...]        readonly [-aAf] [name[=value] ...] o>
+ compgen [-abcdefgjksuv] [-o option]  >  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DE] >  select NAME [in WORDS ... ;] do COMM>
+ compopt [-o|+o option] [-DE] [name ..>  set [-abefhkmnptuvxBCHP] [-o option->
+ continue [n]                            shift [n]
+ coproc [NAME] command [redirections]    shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgilnrtux] [-p] [name[=v>  source filename [arguments]
+ dirs [-clpv] [+N] [-N]                  suspend [-f]
+ disown [-h] [-ar] [jobspec ...]         test [expr]
+ echo [-neE] [arg ...]                   time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [na>  times
+ eval [arg ...]                          trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [argume>  true
+ exit [n]                                type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or ex>  typeset [-aAfFgilrtux] [-p] name[=va>
+ false                                   ulimit [-SHabcdefilmnpqrstuvxT] [lim>
+ fc [-e ename] [-lnr] [first] [last] o>  umask [-p] [-S] [mode]
+ fg [job_spec]                           unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMAND>  unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMAN>  until COMMANDS; do COMMANDS; done
+ function name { COMMANDS ; } or name >  variables - Names and meanings of so>
+ getopts optstring name [arg]            wait [-n] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name >  while COMMANDS; do COMMANDS; done
+ help [-dms] [pattern ...]               { COMMANDS ; }
+
+User@rakib MINGW32 ~ (master)
+$ help login
+bash: help: no help topics match `login'.  Try `help help' or `man -k login' or `info login'.
+
+User@rakib MINGW32 ~ (master)
+$ login
+bash: login: command not found
+
+User@rakib MINGW32 ~ (master)
+$ init
+bash: init: command not found
+
+User@rakib MINGW32 ~ (master)
+$ readme.md
+bash: readme.md: command not found
+
+User@rakib MINGW32 ~ (master)
+$ echo "# wprevtheme >> readme.md"
+# wprevtheme >> readme.md
+
+User@rakib MINGW32 ~ (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/User/.git/
+
+User@rakib MINGW32 ~ (master)
+$ git remote add origin https://github.com/RyhanRakib/wprevtheme.git
+fatal: remote origin already exists.
+
+User@rakib MINGW32 ~ (master)
+$ cd
+
+User@rakib MINGW32 ~ (master)
+$ cd documents/gt
+bash: cd: documents/gt: No such file or directory
+
+User@rakib MINGW32 ~ (master)
+$ cd Documents/git
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git init
+Initialized empty Git repository in C:/Users/User/Documents/git/.git/
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git add .
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git commit -m 'added the first file'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@rakib.(none)')
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git config --global user.email "ryhanrakib@gmail.com"
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git config --global user.email "ryhanrakib@gmail.com"
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git config --global user.email "ryhanrakib@gmail.com"
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git config --global user.email
+ryhanrakib@gmail.com
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git commit -m 'added the first file'
+[master (root-commit) 99fb967] added the first file
+ 1 file changed, 46 insertions(+)
+ create mode 100644 pagination.txt
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git remote add origin https://github.com/RyhanRakib/wprevtheme.git
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git push -u origin master
+Username for 'https://github.com': RyhanRakib
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.00 KiB | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/RyhanRakib/wprevtheme.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git push -u origin master
+Username for 'https://github.com': RyhanRakib
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ ls
+pagination.txt  wprevtheme.rar
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git add wprevtheme.rar
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git add .
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git commit -m 'added the wprevtheme'
+[master d4c5285] added the wprevtheme
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 wprevtheme.rar
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git push
+Username for 'https://github.com': RyhanRakib
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 28.36 MiB | 47.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/RyhanRakib/wprevtheme.git
+   99fb967..d4c5285  master -> master
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ ls
+pagination.txt  Readme.txt  wprevtheme.rar
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git add .
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git commit -m 'added the Readme'
+[master f8b2093] added the Readme
+ 1 file changed, 19 insertions(+)
+ create mode 100644 Readme.txt
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git push
+Username for 'https://github.com': RyhanRakib
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 592 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/RyhanRakib/wprevtheme.git
+   d4c5285..f8b2093  master -> master
+
+User@rakib MINGW32 ~/Documents/git (master)
+$
