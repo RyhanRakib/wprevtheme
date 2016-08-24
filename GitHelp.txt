@@ -1,3 +1,46 @@
+User@rakib MINGW32 ~/Documents/git (master)
+$ git add .
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git commit -m 'added the Readme'
+[master f8b2093] added the Readme
+ 1 file changed, 19 insertions(+)
+ create mode 100644 Readme.txt
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git push
+Username for 'https://github.com': RyhanRakib
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 592 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/RyhanRakib/wprevtheme.git
+   d4c5285..f8b2093  master -> master
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git add .
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git remote add origin https://github.com/RyhanRakib/gitHelp.git
+fatal: remote origin already exists.
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git push -u origin master
+Username for 'https://github.com': RyhanRakib
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ ls
+GitHelp.txt  pagination.txt  Readme.txt  wprevtheme.rar
+
+User@rakib MINGW32 ~/Documents/git (master)
+$ git commit -m 'added the GitHelp'
+
+$ git push
+
+*******************************************
 
 User@rakib MINGW32 ~
 $ echo "# wprevtheme" >> README.md
